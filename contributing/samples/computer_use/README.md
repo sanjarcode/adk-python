@@ -19,7 +19,7 @@ The computer use agent consists of:
 Install the required Python packages from the requirements file:
 
 ```bash
-uv pip install -r contributing/samples/computer_use/requirements.txt
+uv venv && source .venv/bin/activate && uv pip install -r contributing/samples/computer_use/requirements.txt
 ```
 
 ### 2. Install Playwright Dependencies
